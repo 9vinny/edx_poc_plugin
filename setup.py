@@ -99,4 +99,9 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
     ],
+    entry_points={
+        "lms.djangoapp": [
+            "my_app = edx_poc_plugin.apps.EdxPocPluginConfig",
+        ],
+    }
 )
