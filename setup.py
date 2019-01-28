@@ -101,7 +101,10 @@ setup(
     ],
     entry_points={
         "lms.djangoapp": [
-            "my_app = edx_poc_plugin.apps.EdxPocPluginConfig",
+            "my_app = edx_poc_plugin.apps:EdxPocPluginConfig",
+        ],
+        "cms.djangoapp": [
+            "plugins = edx_poc_plugin.apps:EdxPocPluginConfig",
         ],
     }
 )
