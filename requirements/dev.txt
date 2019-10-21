@@ -19,7 +19,7 @@ colorama==0.4.1
 coverage==4.5.2
 diff-cover==1.0.6
 distlib==0.2.8
-django==1.11.18
+django==1.11.23           # via edx-i18n-tools
 edx-i18n-tools==0.4.8
 edx-lint==1.0.0
 filelock==3.0.10
