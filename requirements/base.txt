@@ -4,5 +4,5 @@
 #
 #    make upgrade
 #
-django==1.11.18
+django==1.11.29           # via -r base.in
 pytz==2018.9              # via django
